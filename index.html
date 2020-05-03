@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Monopoly Game</title>
+    <script src="app_updated.js" type="module"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container" id="main">
+        <div class="box" id="box1"><img src="./images/dice_1.png" id="img1" alt="red dice"><img src="./images/dice-2.png" id="img2"alt="blue dice">0</div>
+        <div class="box" id="box2">10</div>
+        <div class="box" id="box3">20</div>
+        <div class="box" id="box4">30</div>
+        <div class="box" id="box5">Jail</div>
+        <div class="box" id="box6" style="visibility: hidden;">6</div>
+        <div class="box" id="box7" style="visibility: hidden;">7</div>
+        <div class="box" id="box8">40</div>
+        <div class="box" id="box9">110</div>
+        <div class="box" id="box10" style="visibility: hidden;">10</div>
+        <div class="box" id="box11" style="visibility: hidden;">11</div>
+        <div class="box" id="box12">50</div>
+        <div class="box" id="box13">90</div>
+        <div class="box" id="box14">80</div>
+        <div class="box" id="box15">70</div>
+        <div class="box" id="box16">60</div>
+    </div>
+    <div class="maingrid">
+        <div class="grid-container">
+            <div class="item1" style="color: red;">
+                <span><input type="submit" value="Player 1" id="player-1"> </span>
+            </div>
+            <div class="item2" style="color: blue;">
+                <span><input type="submit" value="Player 2" id="player-2"> </span>
+            </div>
+            <div id="score1" style="color: red;">1000</div>
+            <div id="score2" style="color: blue;">1000</div>
+        </div2>
+        <div class="dice">
+        </div>
+    </div>
+    <p id ="outofgame"></p>
+</body>
+</html>
